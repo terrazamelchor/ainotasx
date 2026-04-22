@@ -17,21 +17,27 @@ AiNotas_Plus AI es un asistente de notificaciones inteligente que utiliza modelo
 ## 📰 Novedades
 
 - **🔔 Sistema de Notificaciones Inteligentes (v2.0, 2025)**: AiNotas_Plus AI ahora puede leer todas las notificaciones de tu dispositivo Android y narrarlas usando IA local.
+- **🎛️ Sistema Avanzado de Filtros**: Control total sobre qué notificaciones escuchar. Filtra por aplicación, remitente, palabras clave y reemplaza texto automáticamente.
 - **🤖 Integración con Modelos GGUF**: Soporte completo para descargar y utilizar modelos GGUF desde Hugging Face para procesamiento de lenguaje natural.
 - **🎙️ Narración TTS Nativa**: Integración con el sistema Text-to-Speech de Android para reproducción de audio de alta calidad.
-- **📱 Interfaz Simplificada**: Nueva pantalla principal dedicada a mostrar y gestionar notificaciones de todas las aplicaciones.
+- **📱 Interfaz Material 3 Renovada**: Nueva interfaz inspirada en Kotlin con diseño moderno, chips de filtro y menú lateral mejorado.
 
 ## Características Principales
 
 - **Lectura de Notificaciones Universal**: Accede a notificaciones de cualquier aplicación instalada en tu dispositivo Android.
+- **🎛️ Sistema Avanzado de Filtros**: 
+  - **Filtro por Aplicación**: Activa/desactiva notificaciones de apps específicas.
+  - **Filtro por Remitente**: Controla qué contactos o servicios escuchar dentro de cada app.
+  - **Palabras a Ignorar**: Omite automáticamente notificaciones que contengan ciertas palabras.
+  - **Reemplazo de Texto**: Sustituye términos automáticamente antes de narrar (ej: "USD" → "dólares").
 - **Procesamiento con IA Local**: Utiliza modelos GGUF (GPT-quantized) para interpretar y narrar notificaciones de forma inteligente.
 - **Síntesis de Voz Nativa**: Integración directa con el motor TTS del sistema Android.
 - **Funcionamiento Offline**: Una vez descargado el modelo, todo el procesamiento ocurre sin necesidad de internet.
 - **Gestión de Notificaciones**: Historial completo de notificaciones con opciones para marcar como leídas, eliminar o volver a escuchar.
 - **Modelos Flexibles**: Descarga y cambia entre múltiples modelos GGUF según tus necesidades.
-- **Búsqueda en Hugging Face**: Explora y descarga modelos directamente desde el hub de Hugging Face.
 - **Descargas en Segundo Plano**: Continúa descargando modelos mientras usas otras aplicaciones.
 - **Privacidad Total**: Tus notificaciones y datos nunca salen de tu dispositivo.
+- **Interfaz Material 3**: Diseño moderno inspirado en Kotlin con chips de filtro, tarjetas intuitivas y menú lateral renovado.
 
 ## Instalación
 
@@ -66,11 +72,31 @@ O compila la aplicación desde el código fuente siguiendo las instrucciones de 
 
 1. Desde la pantalla principal, toca el botón **Iniciar Escucha**.
 2. El sistema te redirigirá a la configuración de notificaciones de Android.
-3. Busca **AiNotas_Plus AI** en la lista de aplicaciones.
+3. Busca **AiNotas_Plus** en la lista de aplicaciones.
 4. Activa el interruptor para permitir el acceso a notificaciones.
 5. Regresa a la aplicación y confirma que el estado muestra "Escuchando".
 
 ⚠️ **Importante**: Este permiso permite leer el contenido de todas las notificaciones del sistema. Solo habilítalo si confías en la aplicación.
+
+### Configurar Filtros de Notificaciones
+
+Para personalizar qué notificaciones escuchar:
+
+1. Abre el menú lateral (☰).
+2. Navega a las opciones de filtrado:
+   - **📲 Apps Monitorizadas**: Activa/desactiva aplicaciones completas.
+   - **👤 Remitentes**: Filtra contactos o servicios específicos dentro de cada app.
+   - **🚫 Palabras a Ignorar**: Agrega palabras clave para omitir notificaciones.
+   - **🔤 Reemplazar Texto**: Configura sustituciones automáticas de texto.
+3. Usa los chips superiores en la pantalla principal para filtrar rápidamente entre "Todas", "Activas" o "Inactivas".
+4. Las notificaciones se filtran en tiempo real según tu configuración.
+
+#### Ejemplos de Uso de Filtros
+
+- **Ignorar notificaciones de juegos**: Agrega "partida", "nivel", "vidas" a Palabras a Ignorar.
+- **Reemplazar términos técnicos**: Configura "BTC" → "Bitcoin", "USD" → "dólares americanos".
+- **Solo escuchar mensajes importantes**: Desactiva apps de redes sociales y deja activas solo WhatsApp y Correo.
+- **Filtrar remitentes específicos**: En WhatsApp, activa solo contactos familiares y desactiva grupos.
 
 ### Escuchar Notificaciones
 
