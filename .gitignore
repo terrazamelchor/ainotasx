@@ -1,51 +1,41 @@
 ```
-# Dependencies
-node_modules/
-yarn.lock
-
-# Build artifacts
-dist/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
 build/
 target/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.python-version
+# Dependencies
+node_modules/
+.gradle/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment variables
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Test related
-__tests__/
-e2e/node_modules/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Android specific
+*.apk
+*.aar
+*.dex
+proguard/
+build/
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
 
 # Compressed files
 *.zip
@@ -66,4 +56,15 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Backup scripts and data
+respaldo.sh
+respaldo_completo.sh
+restaurar.sh
+proyecto_kotlin.tar.gz
+respuesta_raw.json
 ```
