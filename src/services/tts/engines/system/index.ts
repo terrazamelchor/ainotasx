@@ -1,4 +1,4 @@
-import Speech, {TTSEngine} from '@pocketpalai/react-native-speech';
+import Speech, {TTSEngine} from '@ainotasxai/react-native-speech';
 
 import {ttsRuntime} from '../../runtime';
 import {createEngineStreamingHandle} from '../../streamingHandle';
@@ -7,7 +7,7 @@ import {getSystemVoices} from './voices';
 
 /**
  * Thin wrapper around the OS native TTS path exposed by
- * `@pocketpalai/react-native-speech`. Always available on iOS 13+ / Android 8+.
+ * `@ainotasxai/react-native-speech`. Always available on iOS 13+ / Android 8+.
  */
 export class SystemEngine implements Engine {
   readonly id = 'system' as const;

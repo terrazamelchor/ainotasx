@@ -1,6 +1,6 @@
 import Speech, {
   type SpeechStreamOptions,
-} from '@pocketpalai/react-native-speech';
+} from '@ainotasxai/react-native-speech';
 
 import {ttsRuntime} from './runtime';
 import type {Engine, StreamingHandle} from './types';

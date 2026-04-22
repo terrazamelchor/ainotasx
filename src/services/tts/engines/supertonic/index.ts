@@ -4,7 +4,7 @@ import * as RNFS from '@dr.pogodin/react-native-fs';
 import Speech, {
   TTSEngine,
   type SupertonicLanguage,
-} from '@pocketpalai/react-native-speech';
+} from '@ainotasxai/react-native-speech';
 
 import {
   SUPERTONIC_MODEL_BASE_URL,
@@ -46,7 +46,7 @@ const DEFAULT_SUPERTONIC_LANGUAGE: SupertonicLanguage = 'en';
  * rules XML).
  *
  * Once installed, `play()` and `playStreaming()` delegate to
- * `@pocketpalai/react-native-speech`. The engine lazily calls
+ * `@ainotasxai/react-native-speech`. The engine lazily calls
  * `Speech.initialize()` on first play; subsequent plays reuse the
  * initialized engine.
  */

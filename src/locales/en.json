@@ -439,7 +439,7 @@
     "screenTitle": "App Info",
     "description": "An app that brings language models directly to your phone. Sits on the shoulders of llama.cpp and llama.rn.",
     "supportProject": "Support the Project",
-    "supportProjectDescription": "If you enjoy using PocketPal AI, please consider supporting the project by:",
+    "supportProjectDescription": "If you enjoy using AiNotas_Plus AI, please consider supporting the project by:",
     "githubButton": "Star on GitHub",
     "orText": "or",
     "orBy": "or by",
@@ -451,10 +451,10 @@
   },
   "feedback": {
     "title": "Send Feedback",
-    "description": "Your voice matters! Tell us how PocketPal AI is helping you and what we can do to make it even more useful.",
+    "description": "Your voice matters! Tell us how AiNotas_Plus AI is helping you and what we can do to make it even more useful.",
     "shareThoughtsButton": "Sharing your thoughts",
     "useCase": {
-      "label": "What are you using PocketPal AI for?",
+      "label": "What are you using AiNotas_Plus AI for?",
       "placeholder": "e.g., summarization, roleplay, etc."
     },
     "featureRequests": {
@@ -466,7 +466,7 @@
       "placeholder": "Share any other thoughts you may have."
     },
     "usageFrequency": {
-      "label": "How often do you use PocketPal AI? (Optional)",
+      "label": "How often do you use AiNotas_Plus AI? (Optional)",
       "options": {
         "daily": "Daily",
         "weekly": "Weekly",
@@ -521,7 +521,7 @@
     },
     "chatEmptyPlaceholder": {
       "noModelsTitle": "No Models Available",
-      "noModelsDescription": "Download a model to start chatting with PocketPal",
+      "noModelsDescription": "Download a model to start chatting with AiNotas_Plus",
       "noModelsButton": "Download Model",
       "activateModelTitle": "Activate Model To Get Started",
       "activateModelDescription": "Select the model and download it. After downloading, tap Load next to the model and start chatting.",
@@ -571,7 +571,7 @@
     },
     "modelErrorReportSheet": {
       "title": "Report Model Loading Issue",
-      "privacyNote": "Help us improve PocketPal by sharing details about this error. Review below what will be shared - you can deselect any items you prefer not to include.",
+      "privacyNote": "Help us improve AiNotas_Plus by sharing details about this error. Review below what will be shared - you can deselect any items you prefer not to include.",
       "errorMessage": "Error message",
       "modelInfo": "Model Information",
       "modelName": "Name",
@@ -589,7 +589,7 @@
       "submit": "Submit Report",
       "success": {
         "title": "Report Submitted",
-        "message": "Thank you for helping us improve PocketPal. Your report will help us fix this issue."
+        "message": "Thank you for helping us improve AiNotas_Plus. Your report will help us fix this issue."
       },
       "error": {
         "title": "Report Failed",
@@ -1004,7 +1004,7 @@
   },
   "camera": {
     "permissionTitle": "Camera Permission Required",
-    "permissionMessage": "PocketPal needs camera access to analyze images",
+    "permissionMessage": "AiNotas_Plus needs camera access to analyze images",
     "requestingPermission": "Requesting camera permission...",
     "noDevice": "No camera device found",
     "errorTitle": "Camera Error",
@@ -1018,7 +1018,7 @@
   },
   "video": {
     "permissionTitle": "Camera Permission Required",
-    "permissionMessage": "PocketPal needs camera access for video analysis",
+    "permissionMessage": "AiNotas_Plus needs camera access for video analysis",
     "requestingPermission": "Requesting camera permission...",
     "noDevice": "No camera device found",
     "errorTitle": "Camera Error",

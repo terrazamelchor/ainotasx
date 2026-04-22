@@ -1,7 +1,7 @@
 import {Platform} from 'react-native';
 
 import * as RNFS from '@dr.pogodin/react-native-fs';
-import Speech, {TTSEngine} from '@pocketpalai/react-native-speech';
+import Speech, {TTSEngine} from '@ainotasxai/react-native-speech';
 
 import {
   KITTEN_MODEL_BASE_URL,

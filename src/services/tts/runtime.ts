@@ -1,4 +1,4 @@
-import Speech from '@pocketpalai/react-native-speech';
+import Speech from '@ainotasxai/react-native-speech';
 
 import type {Engine, EngineId} from './types';
 

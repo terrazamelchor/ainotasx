@@ -1,6 +1,6 @@
-# PocketPal AI - Notificador Inteligente 📱🔔
+# AiNotas_Plus AI - Notificador Inteligente 📱🔔
 
-PocketPal AI es un asistente de notificaciones inteligente que utiliza modelos de lenguaje pequeños (SLMs) ejecutados directamente en tu dispositivo Android. La aplicación lee las notificaciones de otras apps, las procesa con IA para generar una narración natural y las reproduce mediante el sistema TTS nativo del dispositivo.
+AiNotas_Plus AI es un asistente de notificaciones inteligente que utiliza modelos de lenguaje pequeños (SLMs) ejecutados directamente en tu dispositivo Android. La aplicación lee las notificaciones de otras apps, las procesa con IA para generar una narración natural y las reproduce mediante el sistema TTS nativo del dispositivo.
 
 > **Nota de Privacidad**: Todo el procesamiento ocurre completamente en tu dispositivo. Las notificaciones se leen localmente y no se envían a servidores externos. El modelo de IA y la síntesis de voz funcionan offline una vez descargados.
 
@@ -16,7 +16,7 @@ PocketPal AI es un asistente de notificaciones inteligente que utiliza modelos d
 
 ## 📰 Novedades
 
-- **🔔 Sistema de Notificaciones Inteligentes (v2.0, 2025)**: PocketPal AI ahora puede leer todas las notificaciones de tu dispositivo Android y narrarlas usando IA local.
+- **🔔 Sistema de Notificaciones Inteligentes (v2.0, 2025)**: AiNotas_Plus AI ahora puede leer todas las notificaciones de tu dispositivo Android y narrarlas usando IA local.
 - **🤖 Integración con Modelos GGUF**: Soporte completo para descargar y utilizar modelos GGUF desde Hugging Face para procesamiento de lenguaje natural.
 - **🎙️ Narración TTS Nativa**: Integración con el sistema Text-to-Speech de Android para reproducción de audio de alta calidad.
 - **📱 Interfaz Simplificada**: Nueva pantalla principal dedicada a mostrar y gestionar notificaciones de todas las aplicaciones.
@@ -37,9 +37,9 @@ PocketPal AI es un asistente de notificaciones inteligente que utiliza modelos d
 
 ### Android
 
-Obtén PocketPal AI en Google Play:
+Obtén AiNotas_Plus AI en Google Play:
 
-[**Disponible en Google Play**](https://play.google.com/store/apps/details?id=com.pocketpalai)
+[**Disponible en Google Play**](https://play.google.com/store/apps/details?id=com.ainotasxai)
 
 O compila la aplicación desde el código fuente siguiendo las instrucciones de desarrollo.
 
@@ -66,7 +66,7 @@ O compila la aplicación desde el código fuente siguiendo las instrucciones de 
 
 1. Desde la pantalla principal, toca el botón **Iniciar Escucha**.
 2. El sistema te redirigirá a la configuración de notificaciones de Android.
-3. Busca **PocketPal AI** en la lista de aplicaciones.
+3. Busca **AiNotas_Plus AI** en la lista de aplicaciones.
 4. Activa el interruptor para permitir el acceso a notificaciones.
 5. Regresa a la aplicación y confirma que el estado muestra "Escuchando".
 
@@ -105,8 +105,8 @@ O compila la aplicación desde el código fuente siguiendo las instrucciones de 
 1. **Fork y Clonar el Repositorio**
 
    ```bash
-   git clone https://github.com/a-ghorbani/pocketpal-ai
-   cd pocketpal-ai
+   git clone https://github.com/a-ghorbani/ainotasx-ai
+   cd ainotasx-ai
    ```
 
 2. **Instalar Dependencias**
@@ -213,7 +213,7 @@ Para preguntas o feedback, por favor abre un issue en el repositorio.
 
 ## Agradecimientos
 
-PocketPal AI está construido utilizando el trabajo increíble de:
+AiNotas_Plus AI está construido utilizando el trabajo increíble de:
 
 - **[llama.cpp](https://github.com/ggerganov/llama.cpp)**: Permite la inferencia eficiente de LLMs en dispositivos locales.
 - **[llama.rn](https://github.com/mybigday/llama.rn)**: Implementa bindings de llama.cpp en React Native.

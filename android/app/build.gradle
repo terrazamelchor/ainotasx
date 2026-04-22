@@ -85,9 +85,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.pocketpal"
+    namespace "com.ainotasx"
     defaultConfig {
-        applicationId "com.pocketpalai"
+        applicationId "com.ainotasxai"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 137 
@@ -109,9 +109,9 @@ android {
             def releaseKeyPassword = project.env.get("APP_RELEASE_KEY_PASSWORD") ?: System.getenv("APP_RELEASE_KEY_PASSWORD")
 
             if (releaseStorePassword && releaseKeyPassword) {
-                storeFile file("pocketpal-release-key.keystore")
+                storeFile file("ainotasx-release-key.keystore")
                 storePassword releaseStorePassword
-                keyAlias "pocketpal_key_alias"
+                keyAlias "ainotasx_key_alias"
                 keyPassword releaseKeyPassword
             }
         }

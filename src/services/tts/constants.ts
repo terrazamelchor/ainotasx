@@ -26,11 +26,11 @@ export const TTS_PARENT_SUBDIR = 'tts';
  * v2 preserves the v1 5-file manifest, filenames, voice catalog, and total
  * size (~265 MB, OnnxSlim-optimized) while adding KO/ES/PT/FR alongside EN.
  * The fork auto-detects v1 vs v2 by inspecting `unicode_indexer.json`, so no
- * PocketPal-side version flag is needed.
+ * AiNotas_Plus-side version flag is needed.
  *
  * URL traced from the upstream fork example app at pinned SHA
  * `3ae0094b094d7c3d4e17378e53199813384e88f9`
- * (`@pocketpalai/react-native-speech/example/src/utils/SupertonicModelManager.ts`).
+ * (`@ainotasxai/react-native-speech/example/src/utils/SupertonicModelManager.ts`).
  */
 export const SUPERTONIC_MODEL_BASE_URL =
   'https://huggingface.co/Supertone/supertonic-2/resolve/main';

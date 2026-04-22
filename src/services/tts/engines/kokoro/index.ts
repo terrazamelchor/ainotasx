@@ -1,7 +1,7 @@
 import {Platform} from 'react-native';
 
 import * as RNFS from '@dr.pogodin/react-native-fs';
-import Speech, {TTSEngine} from '@pocketpalai/react-native-speech';
+import Speech, {TTSEngine} from '@ainotasxai/react-native-speech';
 
 import {
   KOKORO_MODEL_BASE_URL,

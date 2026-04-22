@@ -1,7 +1,7 @@
 /**
  * TTS service types.
  *
- * Voices and engines are abstracted over `@pocketpalai/react-native-speech` so the
+ * Voices and engines are abstracted over `@ainotasxai/react-native-speech` so the
  * rest of the app doesn't touch that package directly.
  */
 
@@ -9,7 +9,7 @@ export type EngineId = 'kitten' | 'kokoro' | 'supertonic' | 'system';
 
 /**
  * Discrete set of diffusion-step counts exposed in the Supertonic UI.
- * The fork supports `1|2|3|4|5|10|20|50`; PocketPal exposes
+ * The fork supports `1|2|3|4|5|10|20|50`; AiNotas_Plus exposes
  * `1|2|3|5|10|20`. We skip 4 (perceptually too close to 3/5) and 50
  * (latency budget too high for interactive use).
  */
